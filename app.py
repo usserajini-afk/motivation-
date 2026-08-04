@@ -100,7 +100,3 @@ def history():
 def load_chat(chat_id):
     messages = chats.get(chat_id, [])
     return jsonify(messages)
-
-
-
-if __name__ == "__main__":
